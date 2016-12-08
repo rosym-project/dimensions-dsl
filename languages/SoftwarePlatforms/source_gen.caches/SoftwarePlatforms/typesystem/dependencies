@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="SoftwarePlatforms.typesystem.CheckOnlySoftwarePlatformAnnotatedModels" file="CheckOnlySoftwarePlatformAnnotatedModels.java" />
+  <dependency className="SoftwarePlatforms.typesystem.TypesystemDescriptor" file="TypesystemDescriptor.java">
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor" />
+  </dependency>
+</dependenciesRoot>
+
