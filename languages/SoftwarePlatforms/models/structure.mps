@@ -27,9 +27,7 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
-        <child id="1169127546356" name="extends" index="PrDN$" />
-      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -63,6 +61,9 @@
     <node concept="PrWs8" id="2LnlX4fH6I6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="6PzJeNwrpOG" role="PzmwI">
+      <ref role="PrY4T" node="6PzJeNwrpx6" resolve="IDemandDescriptorProvider" />
+    </node>
     <node concept="M6xJ_" id="2LnlX4fH6I9" role="lGtFl">
       <property role="Hh88m" value="SoftwarePlatform" />
       <node concept="tn0Fv" id="2LnlX4fH6Ic" role="HhnKV">
@@ -77,6 +78,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="demands" />
       <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
+    </node>
+    <node concept="1TJgyj" id="6PzJeNwgQ$t" role="1TKVEi">
+      <property role="IQ2ns" value="7882351498389317917" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="hidden_demandDescriptor" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
     </node>
   </node>
@@ -94,14 +102,16 @@
       <property role="20kJfa" value="coveredBy" />
       <ref role="20lvS9" node="36nF4tNk0LA" resolve="ICoverDemand" />
     </node>
-    <node concept="PrWs8" id="36nF4tNjJWF" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="PlHQZ" id="36nF4tNk0LA">
     <property role="EcuMT" value="3573514252219059302" />
     <property role="TrG5h" value="ICoverDemand" />
     <property role="3GE5qa" value="demands" />
+  </node>
+  <node concept="PlHQZ" id="6PzJeNwrpx6">
+    <property role="EcuMT" value="7882351498392082502" />
+    <property role="3GE5qa" value="demands" />
+    <property role="TrG5h" value="IDemandDescriptorProvider" />
   </node>
 </model>
 

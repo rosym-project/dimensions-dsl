@@ -54,6 +54,9 @@
   <dependencies>
     <dependency reexport="false">4cc07462-84b3-4d01-8adb-629ddd3cebd4(Capabilities)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
+    <dependency reexport="false">8fb3e629-b68f-443e-b616-d61142df624b(SoftwarePlatforms)</dependency>
+    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
