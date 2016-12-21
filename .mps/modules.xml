@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/Capabilities/Capabilities.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/HardwarePlatforms/HardwarePlatforms.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" folder="" />
     </projectModules>
   </component>
 </project>

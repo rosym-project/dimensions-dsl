@@ -6,7 +6,10 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b14247-defc-43c0-bc6c-146108eeb5d8" name="Default" comment="" />
+    <list default="true" id="21b14247-defc-43c0-bc6c-146108eeb5d8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../systems-coordination/build.xml" afterPath="$PROJECT_DIR$/../systems-coordination/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../systems-coordination/solutions/SystemsCoordination.build0/models/SystemsCoordination/build.mps" afterPath="$PROJECT_DIR$/../systems-coordination/solutions/SystemsCoordination.build0/models/SystemsCoordination/build.mps" />
+    </list>
     <ignored path="Dimensions.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="b6bb7264-b310-4d32-9b90-50b5d80cff9e/r:b2c18396-9458-4ba8-9bdf-2ef28811ff25(TempModuleb6bb7264-b310-4d32-9b90-50b5d80cff9e/TempModel_549718336060)">
+            <model ref="ea59faa2-bcb7-48e6-80f5-d33fcd026734/r:e8a68537-dc80-45b2-9c40-f2e817ee3fcb(TempModuleea59faa2-bcb7-48e6-80f5-d33fcd026734/TempModel_23529796100127)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -52,9 +55,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5MCOBE9QST0">
-                <node concept="3balQm" id="5MCOBE9QST1" role="aymYE" />
-                <node concept="2Clz$F" id="5MCOBE9QST2" role="aymYO">
+              <node concept="aymSD" id="6e2WGLbBT6E">
+                <node concept="3balQm" id="6e2WGLbBT6F" role="aymYE" />
+                <node concept="2Clz$F" id="6e2WGLbBT6G" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -80,8 +83,66 @@
       </view>
     </search_options>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cosmo.dimensions" pinned="false" current-in-tab="true">
+        <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="223" />
+                    <property name="caretXRelative" value="108" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
+                      <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_leuqor_e0" cellNumber="0" isInList="false">
+                      <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504836" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../systems-coordination" />
@@ -190,10 +251,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build) in IdeaFile{file:///home/dwigand/code/cogimon/Cosmo/DSLs/cosmo.dimensions/solutions/cosmo.dimensions.build/models/cosmo/dimensions/build.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -206,7 +284,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8fb3e629-b68f-443e-b616-d61142df624b(SoftwarePlatforms)" />
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,58 +308,31 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8fb3e629-b68f-443e-b616-d61142df624b(SoftwarePlatforms)" />
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:4b38c276-e23d-4330-a10f-73c179c106e9(SoftwarePlatforms.intentions) in IdeaFile{file:///home/dwigand/code/cogimon/Cosmo/DSLs/cosmo.dimensions/languages/SoftwarePlatforms/models/intentions.mps}" />
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build) in IdeaFile{file:///home/dwigand/code/cogimon/Cosmo/DSLs/cosmo.dimensions/solutions/cosmo.dimensions.build/models/cosmo/dimensions/build.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1877992556442504385" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cosmo.robot-platform" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
-      <MyState />
-      <myJUnitSettings>
-        <MyState>
-          <option name="myModel" />
-          <option name="myModule" />
-          <option name="myInProcess" value="true" />
-          <option name="myReuseCaches" value="true" />
-          <option name="myDebug" value="false" />
-          <option name="myCachesPath" value="/tmp/mps_test_dir0" />
-          <option name="myTestCases">
-            <list />
-          </option>
-          <option name="myTestMethods">
-            <list />
-          </option>
-          <option name="myRunType" value="0" />
-        </MyState>
-      </myJUnitSettings>
-      <myJavaRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myJavaRunParameters>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -277,7 +342,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4480" y="24" width="1920" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -296,20 +361,20 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34461266" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cosmo Component Diagram" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cosmo Component Diagram" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -334,38 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://SoftwarePlatforms/SoftwarePlatforms.structure/IBelongToSoftwarePlatform">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="119" />
-                <property name="caretXRelative" value="88" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7v1nzk_b1c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:56615c25-6688-4e79-8ad6-39fc10e647cf(SoftwarePlatforms.structure)/3195119016065928659" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:56615c25-6688-4e79-8ad6-39fc10e647cf(SoftwarePlatforms.structure)/3195119016065928659" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:56615c25-6688-4e79-8ad6-39fc10e647cf(SoftwarePlatforms.structure)/3195119016065928659" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://SoftwarePlatforms/SoftwarePlatforms.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://SoftwarePlatforms/SoftwarePlatforms.intentions/CheckOnlySoftwarePlatformAnnotatedModelsWithRules" />
@@ -2464,6 +2497,60 @@
             </enabledHints>
           </inspectorMemento>
           <node node_ref="r:f6426069-648d-4f49-8ea9-91a39c2fafdd(SoftwarePlatforms.typesystem)/7882351498389313019" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="108" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_leuqor_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504836" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
