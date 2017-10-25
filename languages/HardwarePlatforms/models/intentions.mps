@@ -111,12 +111,15 @@
       <concept id="7776141288922801652" name="jetbrains.mps.lang.actions.structure.NF_Concept_NewInstance" flags="nn" index="q_SaT" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
@@ -199,8 +202,10 @@
                   </node>
                   <node concept="2OqwBi" id="5l2$Dw5w6LH" role="3uHU7w">
                     <node concept="1PxgMI" id="5l2$Dw5w6LI" role="2Oq$k0">
-                      <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                       <node concept="38Zlrr" id="5l2$Dw5w6LJ" role="1m5AlR" />
+                      <node concept="chp4Y" id="44Dwksk3NuO" role="3oSUPX">
+                        <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                      </node>
                     </node>
                     <node concept="3TrcHB" id="5l2$Dw5w6LK" role="2OqNvi">
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -223,8 +228,10 @@
                     </node>
                     <node concept="2OqwBi" id="5l2$Dw5w6Mm" role="3uHU7w">
                       <node concept="1PxgMI" id="5l2$Dw5w6Mn" role="2Oq$k0">
-                        <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                         <node concept="38Zlrr" id="5l2$Dw5w6Mo" role="1m5AlR" />
+                        <node concept="chp4Y" id="44Dwksk3NuM" role="3oSUPX">
+                          <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                        </node>
                       </node>
                       <node concept="3TrcHB" id="5l2$Dw5w6Mp" role="2OqNvi">
                         <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -259,8 +266,10 @@
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="2OqwBi" id="5l2$Dw5wvyE" role="37wK5m">
                   <node concept="1PxgMI" id="5l2$Dw5wuyL" role="2Oq$k0">
-                    <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                     <node concept="38Zlrr" id="5l2$Dw5wtL0" role="1m5AlR" />
+                    <node concept="chp4Y" id="44Dwksk3NuP" role="3oSUPX">
+                      <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                    </node>
                   </node>
                   <node concept="3TrcHB" id="5l2$Dw5wwhG" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -316,8 +325,10 @@
                     </node>
                     <node concept="2OqwBi" id="5l2$Dw5vg0Z" role="3uHU7w">
                       <node concept="1PxgMI" id="5l2$Dw5vg10" role="2Oq$k0">
-                        <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                         <node concept="38Zlrr" id="5l2$Dw5vg11" role="1m5AlR" />
+                        <node concept="chp4Y" id="44Dwksk3NuI" role="3oSUPX">
+                          <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                        </node>
                       </node>
                       <node concept="3TrcHB" id="5l2$Dw5vg12" role="2OqNvi">
                         <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -371,8 +382,10 @@
                               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                               <node concept="2OqwBi" id="5l2$Dw5vcVp" role="37wK5m">
                                 <node concept="1PxgMI" id="5l2$Dw5vbp7" role="2Oq$k0">
-                                  <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                                   <node concept="38Zlrr" id="5l2$Dw5vav1" role="1m5AlR" />
+                                  <node concept="chp4Y" id="44Dwksk3NuQ" role="3oSUPX">
+                                    <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                                  </node>
                                 </node>
                                 <node concept="3TrcHB" id="5l2$Dw5vdTr" role="2OqNvi">
                                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -405,8 +418,10 @@
                       </node>
                       <node concept="2OqwBi" id="5l2$Dw5vgsr" role="3uHU7w">
                         <node concept="1PxgMI" id="5l2$Dw5vgss" role="2Oq$k0">
-                          <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                           <node concept="38Zlrr" id="5l2$Dw5vgst" role="1m5AlR" />
+                          <node concept="chp4Y" id="44Dwksk3NuL" role="3oSUPX">
+                            <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                          </node>
                         </node>
                         <node concept="3TrcHB" id="5l2$Dw5vgsu" role="2OqNvi">
                           <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -469,8 +484,10 @@
                   </node>
                   <node concept="2oxUTD" id="5l2$Dw5wyG$" role="2OqNvi">
                     <node concept="1PxgMI" id="5l2$Dw5wyG_" role="2oxUTC">
-                      <ref role="1m5ApE" to="wo3l:2jRhxvslcy1" resolve="HardwarePlatformInstance" />
                       <node concept="38Zlrr" id="5l2$Dw5wyGA" role="1m5AlR" />
+                      <node concept="chp4Y" id="44Dwksk3NuJ" role="3oSUPX">
+                        <ref role="cht4Q" to="wo3l:2jRhxvslcy1" resolve="HardwarePlatformInstance" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -519,8 +536,10 @@
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="2OqwBi" id="5l2$Dw5wwSf" role="37wK5m">
                   <node concept="1PxgMI" id="5l2$Dw5wwSg" role="2Oq$k0">
-                    <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                     <node concept="38Zlrr" id="5l2$Dw5wwSh" role="1m5AlR" />
+                    <node concept="chp4Y" id="44Dwksk3NuN" role="3oSUPX">
+                      <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                    </node>
                   </node>
                   <node concept="3TrcHB" id="5l2$Dw5wwSi" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -614,8 +633,10 @@
                               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                               <node concept="2OqwBi" id="5l2$Dw5vR__" role="37wK5m">
                                 <node concept="1PxgMI" id="5l2$Dw5vR_A" role="2Oq$k0">
-                                  <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                                   <node concept="38Zlrr" id="5l2$Dw5vR_B" role="1m5AlR" />
+                                  <node concept="chp4Y" id="44Dwksk3NuK" role="3oSUPX">
+                                    <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                                  </node>
                                 </node>
                                 <node concept="3TrcHB" id="5l2$Dw5vR_C" role="2OqNvi">
                                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -703,8 +724,10 @@
                     </node>
                     <node concept="2oxUTD" id="5l2$Dw5vrOO" role="2OqNvi">
                       <node concept="1PxgMI" id="5l2$Dw5vs7z" role="2oxUTC">
-                        <ref role="1m5ApE" to="wo3l:2jRhxvslcy1" resolve="HardwarePlatformInstance" />
                         <node concept="38Zlrr" id="5l2$Dw5vrRM" role="1m5AlR" />
+                        <node concept="chp4Y" id="44Dwksk3NuR" role="3oSUPX">
+                          <ref role="cht4Q" to="wo3l:2jRhxvslcy1" resolve="HardwarePlatformInstance" />
+                        </node>
                       </node>
                     </node>
                   </node>

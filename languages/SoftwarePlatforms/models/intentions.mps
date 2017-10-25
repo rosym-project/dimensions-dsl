@@ -163,6 +163,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
@@ -171,8 +174,8 @@
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
@@ -1007,7 +1010,6 @@
                               <ref role="ehGHo" to="gbqn:36nF4tNjJWE" resolve="IDemand" />
                             </node>
                             <node concept="1PxgMI" id="6PzJeNwfKLs" role="33vP2m">
-                              <ref role="1m5ApE" to="gbqn:36nF4tNjJWE" resolve="IDemand" />
                               <node concept="2OqwBi" id="6PzJeNwfKLt" role="1m5AlR">
                                 <node concept="1eOMI4" id="6PzJeNwfKLu" role="2Oq$k0">
                                   <node concept="10QFUN" id="6PzJeNwfKLv" role="1eOMHV">
@@ -1018,6 +1020,9 @@
                                   </node>
                                 </node>
                                 <node concept="q_SaT" id="6PzJeNwfKLy" role="2OqNvi" />
+                              </node>
+                              <node concept="chp4Y" id="44Dwksk3Nvc" role="3oSUPX">
+                                <ref role="cht4Q" to="gbqn:36nF4tNjJWE" resolve="IDemand" />
                               </node>
                             </node>
                           </node>

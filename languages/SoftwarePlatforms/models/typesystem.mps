@@ -2,8 +2,7 @@
 <model ref="r:f6426069-648d-4f49-8ea9-91a39c2fafdd(SoftwarePlatforms.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+    <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="olta" ref="r:4b38c276-e23d-4330-a10f-73c179c106e9(SoftwarePlatforms.intentions)" />
