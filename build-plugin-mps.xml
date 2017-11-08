@@ -4,9 +4,9 @@
   <property name="build.tmp" location="${build.dir}/tmp/cosmo.dimensions" />
   <property name="build.layout" location="${build.dir}/artifacts/cosmo.dimensions" />
   <property name="mps_home" location="" />
-  <property name="path__kinematics" location="" />
+  <property name="path__kinematics" location="${basedir}/../kinematics-dsl" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.Kinematics" location="${path__kinematics}" />
+  <property name="artifacts.Kinematics" location="${path__kinematics}/build/artifacts/Kinematics" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />

@@ -7,63 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21b14247-defc-43c0-bc6c-146108eeb5d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build-plugin-mps.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/behavior/ICanBePlatformAnnotated_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/behavior/ICanBePlatformAnnotated_BehaviorDescriptor.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/cosmo/dimensions/build.mps" afterPath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/Language.class" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/behavior/BehaviorAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/constraints/ConstraintsAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/StructureAspectDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/migration.xml" afterPath="$PROJECT_DIR$/.mps/migration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/misc.xml" afterPath="$PROJECT_DIR$/.mps/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/classes_gen/HardwarePlatforms/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/classes_gen/HardwarePlatforms/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/classes_gen/SoftwarePlatforms/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/classes_gen/SoftwarePlatforms/generator/template/main/QueriesGenerated.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/Capabilities.mpl" afterPath="$PROJECT_DIR$/languages/Capabilities/Capabilities.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/classes_gen/Capabilities/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/models/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/models/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/models/editor.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/models/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/models/structure.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/models/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/models/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/behavior/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/constraints/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/constraints/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/dependencies" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/editor/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/structure/dependencies" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/structure/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/typesystem/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen.caches/Capabilities/typesystem/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/Language.java" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/Language.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/behavior/BehaviorAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/constraints/ConstraintsAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/source_gen/Capabilities/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/HardwarePlatforms.mpl" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/HardwarePlatforms.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/editor.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/intentions.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/intentions.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/structure.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-plugin-mps.xml" afterPath="$PROJECT_DIR$/build-plugin-mps.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/classes_gen/HardwarePlatforms/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/classes_gen/HardwarePlatforms/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen.caches/HardwarePlatforms/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen.caches/HardwarePlatforms/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen/HardwarePlatforms/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen/HardwarePlatforms/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen/HardwarePlatforms/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/source_gen/HardwarePlatforms/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/classes_gen/SoftwarePlatforms/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/classes_gen/SoftwarePlatforms/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen.caches/SoftwarePlatforms/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen.caches/SoftwarePlatforms/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen/SoftwarePlatforms/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen/SoftwarePlatforms/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen/SoftwarePlatforms/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/source_gen/SoftwarePlatforms/generator/template/main/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/editor.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/intentions.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/intentions.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/structure.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" afterPath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/plugin.mps" afterPath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/plugin.mps" />
     </list>
     <ignored path="Dimensions.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -80,7 +39,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="162dd9e7-330e-4ab8-b484-9bdb39df825e/r:ad94e009-4f61-4fce-a5f8-d7769b7101f5(TempModule162dd9e7-330e-4ab8-b484-9bdb39df825e/TempModel_20877656421728)">
+            <model ref="2188bf64-7c0c-4646-b86c-14dba5370875/r:a9b06a30-64c0-48ef-9fbf-c70507bfe81c(TempModule2188bf64-7c0c-4646-b86c-14dba5370875/TempModel_9127620923534)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -114,13 +73,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="44Dwksk3NvT">
-                <node concept="3balQm" id="44Dwksk3NvU" role="aymYE" />
-                <node concept="2Clz$F" id="44Dwksk3NvV" role="aymYO">
+              <node concept="aymSD" id="4dO8lRQuAyR">
+                <node concept="3balQm" id="4dO8lRQuAyS" role="aymYE" />
+                <node concept="2Clz$F" id="4dO8lRQuAyT" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="44Dwksk3NvW" role="1PhJh3">
-                  <ref role="2_V_lI" node="44Dwksk3NvV" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="4dO8lRQuAyU" role="1PhJh3">
+                  <ref role="2_V_lI" node="4dO8lRQuAyT" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -146,62 +105,7 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cosmo.dimensions" pinned="false" current-in-tab="true">
-        <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build.plugin/cosmo.dimensions">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="215" />
-                    <property name="caretXRelative" value="144" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_jumb3f_b1a" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705871" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705890" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705884" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705878" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705891" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705871" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -223,9 +127,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2609" />
+    <option name="x" value="4480" />
     <option name="y" value="127" />
-    <option name="width" value="1871" />
+    <option name="width" value="1920" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectPluginManager">
@@ -308,51 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosmo" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin) in IdeaFile{file:///home/dwigand/code/cogimon/Cosmo/DSLs/mps2017-2/cosmo.dimensions/solutions/cosmo.dimensions.build/models/plugin.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosmo" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -364,32 +225,16 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosmo" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin) in IdeaFile{file:///home/dwigand/code/cogimon/Cosmo/DSLs/mps2017-2/cosmo.dimensions/solutions/cosmo.dimensions.build/models/plugin.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4695426228789705867" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../systems-coordination" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -456,11 +301,6 @@
         </MyState>
       </mySettings>
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Build Script.cosmo.dimensions" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -469,7 +309,7 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2609" y="127" width="1871" height="1176" extended-state="6" />
+    <frame x="4480" y="127" width="1920" height="1176" extended-state="6" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,21 +321,19 @@
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947463" sideWeight="0.39070016" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.39070016" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34372216" sideWeight="0.49599144" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.60929984" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4120791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40104166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -505,7 +343,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cosmo Component Diagram" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.60929984" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TestMe" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -529,8 +369,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/HardwarePlatform" />
-    <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.intentions/HardwarePlatformAnnotationIntentionHelper" />
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.intentions/HardwarePlatformAnnotationIntentionHelper" />
@@ -2370,64 +2208,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="376">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="455" />
-                <property name="caretXRelative" value="184" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_uuid" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/4695426228789690899" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504408" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504402" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ucemm3_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/4695426228789690899" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/1877992556442504409" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:23937050-978b-485a-803a-a4b511a03260(cosmo.dimensions.build)/4695426228789690899" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions" />
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/HardwarePlatformInstance">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
@@ -2460,39 +2241,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions">
+    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions" />
+    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions" />
+    <entry file="mps://node://Capabilities/Capabilities.structure/ICanBePlatformAnnotated">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="184" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_vny568_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703182" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_vny568_a_0" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:44322346-a7b1-436b-882b-4bbfa753778e(Capabilities.structure)/3195119016065923168" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2500,22 +2262,31 @@
             <transactionalProperties />
             <foldable />
             <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:44322346-a7b1-436b-882b-4bbfa753778e(Capabilities.structure)/3195119016065923168" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:44322346-a7b1-436b-882b-4bbfa753778e(Capabilities.structure)/3195119016065923168" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build/cosmo.dimensions">
+    <entry file="mps://node://SoftwarePlatforms/SoftwarePlatforms.structure/IAmSoftwarePlatform">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="135" />
+                <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_vny568_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" />
+                <cellInfo cellId="Constant_6lfqqa_a1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498389423347" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2523,45 +2294,48 @@
             <transactionalProperties />
             <foldable>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_pilq2t_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703182" />
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498392085740" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498389423347" />
                 </cellIdElement>
               </collapsedElement>
             </foldable>
-            <restoreAlways />
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498389423347" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_vny568_a_0" cellNumber="0" isInList="false">
-                  <node node_reference="r:08ead999-d52b-4341-9b14-4e25923371b9(cosmo.dimensions.build)/4695426228789703158" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498389423347" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:814ef824-0254-47e7-b04e-303471ae04c3(SoftwarePlatforms.behavior)/7882351498389423346" />
         </state>
       </provider>
     </entry>
     <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build.plugin/cosmo.dimensions">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="215" />
-                <property name="caretXRelative" value="144" />
+                <property name="caretX" value="631" />
+                <property name="caretXRelative" value="80" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jumb3f_b1a" cellNumber="0" isInList="false">
-                  <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705871" />
+                <cellInfo cellId="property_head" cellNumber="0" isInList="false">
+                  <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/9105257351606281626" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2591,7 +2365,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789705871" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/9105257351606281626" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

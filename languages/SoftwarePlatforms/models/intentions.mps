@@ -80,9 +80,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -977,19 +975,6 @@
                   <node concept="3clFbS" id="6PzJeNwfKLc" role="2LFqv$">
                     <node concept="3clFbJ" id="6PzJeNwfKLd" role="3cqZAp">
                       <node concept="1Wc70l" id="6PzJeNwfKLe" role="3clFbw">
-                        <node concept="3clFbC" id="6PzJeNwfKLf" role="3uHU7w">
-                          <node concept="3clFbT" id="6PzJeNwfKLg" role="3uHU7w">
-                            <property role="3clFbU" value="false" />
-                          </node>
-                          <node concept="2OqwBi" id="6PzJeNwfKLh" role="3uHU7B">
-                            <node concept="2GrUjf" id="6PzJeNwfKLi" role="2Oq$k0">
-                              <ref role="2Gs0qQ" node="6PzJeNwfKL8" resolve="lCpt" />
-                            </node>
-                            <node concept="liA8E" id="6PzJeNwfKLj" role="2OqNvi">
-                              <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract():boolean" resolve="isAbstract" />
-                            </node>
-                          </node>
-                        </node>
                         <node concept="2OqwBi" id="6PzJeNwfKLk" role="3uHU7B">
                           <node concept="2GrUjf" id="6PzJeNwfKLl" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="6PzJeNwfKL8" resolve="lCpt" />
@@ -1000,6 +985,17 @@
                               <ref role="3cqZAo" node="6PzJeNwfKKA" resolve="spSpecificDemandConceptIdentifier" />
                             </node>
                           </node>
+                        </node>
+                        <node concept="3clFbC" id="6PzJeNwfKLf" role="3uHU7w">
+                          <node concept="2OqwBi" id="6PzJeNwfKLh" role="3uHU7B">
+                            <node concept="2GrUjf" id="6PzJeNwfKLi" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="6PzJeNwfKL8" resolve="lCpt" />
+                            </node>
+                            <node concept="liA8E" id="6PzJeNwfKLj" role="2OqNvi">
+                              <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract():boolean" resolve="isAbstract" />
+                            </node>
+                          </node>
+                          <node concept="3clFbT" id="6PzJeNwfKLg" role="3uHU7w" />
                         </node>
                       </node>
                       <node concept="3clFbS" id="6PzJeNwfKLo" role="3clFbx">

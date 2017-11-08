@@ -50,6 +50,13 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
   </registry>
   <node concept="1TIwiD" id="2LnlX4fH6I5">
@@ -79,12 +86,16 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
     </node>
-    <node concept="1TJgyj" id="6PzJeNwgQ$t" role="1TKVEi">
-      <property role="IQ2ns" value="7882351498389317917" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="hidden_demandDescriptor" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
+    <node concept="1X3_iC" id="7TsnP7f05Aq" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="6PzJeNwgQ$t" role="8Wnug">
+        <property role="IQ2ns" value="7882351498389317917" />
+        <property role="20lmBu" value="aggregation" />
+        <property role="20kJfa" value="hidden_demandDescriptor" />
+        <property role="20lbJX" value="1" />
+        <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="2LnlX4fH8Rj">
