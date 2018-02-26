@@ -4,10 +4,12 @@
   <property name="build.tmp" location="${build.dir}/tmp/cosmo.dimensions" />
   <property name="build.layout" location="${build.dir}/artifacts/cosmo.dimensions" />
   <property name="mps_home" location="" />
-  <property name="path__kinematics" location="${basedir}/../kinematics-dsl" />
+  <property name="kinematics_home" location="${basedir}/../kinematics-dsl/build/artifacts/Kinematics" />
+  <property name="current_version" value="1.0.0" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.Kinematics" location="${path__kinematics}/build/artifacts/Kinematics" />
+  <property name="artifacts.Kinematics" location="${kinematics_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
+  <property file="${artifacts.Kinematics}/build.properties" prefix="import.Kinematics" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
   <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
@@ -15,6 +17,7 @@
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mps.mps.build.counter" value="${import.mps.mps.mps.build.counter}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
+  <property name="Kinematics.current_version" value="${import.Kinematics.Kinematics.current_version}" />
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
@@ -34,10 +37,14 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>cosmo.dimensions</id>
         <name>cosmo.dimensions</name>
-        <version>1.0</version>
+        <description>Three base dimensions for robotics systems: Capabilities, Software-, and Hardware Platform.</description>
+        <version>${current_version}</version>
+        <vendor url="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=46595843">Dennis Leroy Wigand</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         <depends>Kinematics</depends>
+        <vendor email="dwigand@techfak.uni-bielefeld.de" url="https://github.com/xwavex">Dennis Leroy Wigand</vendor>
+        <idea-version until-build="172.1347" since-build="172.1347" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -322,7 +329,7 @@
     <zip destfile="${build.layout}/cosmo.dimensions.zip">
       <fileset dir="${build.tmp}/default/cosmo.dimensions.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
+    <echo file="${build.layout}/build.properties">cosmo.dimensions.current_version=${current_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}Kinematics.current_version=${Kinematics.current_version}</echo>
   </target>
   
   <target name="buildDependents" />
@@ -441,7 +448,7 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
-      <macro name="path__kinematics" path="${path__kinematics}" />
+      <macro name="kinematics_home" path="${kinematics_home}" />
     </generate>
   </target>
   
