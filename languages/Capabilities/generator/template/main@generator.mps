@@ -2,7 +2,6 @@
 <model ref="r:2b735bd6-c859-4e10-9d95-bd6d439eaabc(Capabilities.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="4cc07462-84b3-4d01-8adb-629ddd3cebd4" name="Capabilities" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />

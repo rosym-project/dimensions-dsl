@@ -7,14 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21b14247-defc-43c0-bc6c-146108eeb5d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/classes_gen/Capabilities/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/classes_gen/Capabilities/generator/template/main/QueriesGenerated.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-plugin-mps.xml" afterPath="$PROJECT_DIR$/build-plugin-mps.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/classes_gen/Capabilities/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/classes_gen/Capabilities/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen.caches/Capabilities/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen.caches/Capabilities/generator/template/main/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen/Capabilities/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen/Capabilities/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen/Capabilities/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen/Capabilities/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" afterPath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/Capabilities.mpl" afterPath="$PROJECT_DIR$/languages/Capabilities/Capabilities.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen.caches/Capabilities/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/source_gen.caches/Capabilities/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Capabilities/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/Capabilities/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/HardwarePlatforms.mpl" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/HardwarePlatforms.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HardwarePlatforms/models/intentions.mps" afterPath="$PROJECT_DIR$/languages/HardwarePlatforms/models/intentions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/SoftwarePlatforms/models/behavior.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/plugin.mps" afterPath="$PROJECT_DIR$/solutions/cosmo.dimensions.build/models/plugin.mps" />
     </list>
     <ignored path="Dimensions.iws" />
@@ -32,7 +35,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="9a993b51-f6f8-40c2-90ad-546778b0871d/r:a836482b-8952-42ab-9308-10f6bc74081c(TempModule9a993b51-f6f8-40c2-90ad-546778b0871d/TempModel_14196521653471)">
+            <model ref="be2e4cad-87aa-4136-9da9-0546f35e2f7e/r:aab7db43-1e77-416b-ac11-dc87807066c8(TempModulebe2e4cad-87aa-4136-9da9-0546f35e2f7e/TempModel_3387364748926)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -66,13 +69,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3eFKsYHX0kW">
-                <node concept="3balQm" id="3eFKsYHX0kX" role="aymYE" />
-                <node concept="2Clz$F" id="3eFKsYHX0kY" role="aymYO">
+              <node concept="aymSD" id="7Z994IeiWGp">
+                <node concept="3balQm" id="7Z994IeiWGq" role="aymYE" />
+                <node concept="2Clz$F" id="7Z994IeiWGr" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="3eFKsYHX0kZ" role="1PhJh3">
-                  <ref role="2_V_lI" node="3eFKsYHX0kY" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="7Z994IeiWGs" role="1PhJh3">
+                  <ref role="2_V_lI" node="7Z994IeiWGr" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -103,15 +106,15 @@
         <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build.plugin/cosmo.dimensions">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="214">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="255" />
-                    <property name="caretXRelative" value="152" />
+                    <property name="caretX" value="191" />
+                    <property name="caretXRelative" value="128" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/3723282614672815781" />
+                    <cellInfo cellId="ReferencePresentation_ulfewq_a0a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789706570" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -126,7 +129,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/3723282614672815781" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789706570" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -160,9 +163,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2609" />
+    <option name="x" value="4480" />
     <option name="y" value="24" />
-    <option name="width" value="1871" />
+    <option name="width" value="1920" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectPluginManager">
@@ -267,30 +270,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cosmo" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -316,6 +297,26 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,6 +344,8 @@
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,7 +430,7 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2609" y="24" width="1871" height="1176" extended-state="6" />
+    <frame x="4480" y="24" width="1920" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,24 +441,24 @@
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947463" sideWeight="0.39070016" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34360412" sideWeight="0.49599144" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27097768" sideWeight="0.60929984" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270775" sideWeight="0.60929984" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22520548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21931697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -486,6 +489,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed includes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed includes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://HardwarePlatforms/HardwarePlatforms.structure/&lt;no name&gt;[ConceptDeclaration]" />
@@ -2446,15 +2453,15 @@
     <entry file="mps://node://cosmo.dimensions.build/cosmo.dimensions.build.plugin/cosmo.dimensions">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="214">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="255" />
-                <property name="caretXRelative" value="152" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="128" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/3723282614672815781" />
+                <cellInfo cellId="ReferencePresentation_ulfewq_a0a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789706570" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2469,7 +2476,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/3723282614672815781" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)/4695426228789706570" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

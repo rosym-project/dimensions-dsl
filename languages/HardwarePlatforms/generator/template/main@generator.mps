@@ -2,7 +2,6 @@
 <model ref="r:224869c5-b11c-4c5c-a0df-975070ad0fca(HardwarePlatforms.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d943373f-819f-4ebe-b0e0-94c5169d72a2" name="HardwarePlatforms" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />

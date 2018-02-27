@@ -40,7 +40,6 @@
         <description>Three base dimensions for robotics systems: Capabilities, Software-, and Hardware Platform.</description>
         <version>${current_version}</version>
         <vendor url="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=46595843">Dennis Leroy Wigand</vendor>
-        <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         <depends>Kinematics</depends>
         <vendor email="dwigand@techfak.uni-bielefeld.de" url="https://github.com/xwavex">Dennis Leroy Wigand</vendor>
@@ -443,7 +442,6 @@
         <module file="${basedir}/languages/SoftwarePlatforms/SoftwarePlatforms.mpl" />
         <module file="${basedir}/solutions/cosmo.dimensions.build/cosmo.dimensions.build.msd" />
       </chunk>
-      <chunk />
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
@@ -719,11 +717,11 @@
   
   <target name="cleanSources">
     <delete dir="${basedir}/languages/Capabilities/source_gen" />
-    <delete dir="${basedir}/languages/HardwarePlatforms/source_gen" />
-    <delete dir="${basedir}/languages/SoftwarePlatforms/source_gen" />
-    <delete dir="${basedir}/solutions/cosmo.dimensions.build/source_gen" />
     <delete dir="${basedir}/languages/Capabilities/generator/source_gen" />
+    <delete dir="${basedir}/languages/HardwarePlatforms/source_gen" />
     <delete dir="${basedir}/languages/HardwarePlatforms/generator/source_gen" />
+    <delete dir="${basedir}/languages/SoftwarePlatforms/source_gen" />
     <delete dir="${basedir}/languages/SoftwarePlatforms/generator/source_gen" />
+    <delete dir="${basedir}/solutions/cosmo.dimensions.build/source_gen" />
   </target>
 </project>

@@ -250,9 +250,6 @@
       <node concept="m$f5U" id="44Dwksk3ZXa" role="m$_yh">
         <ref role="m$f5T" node="44Dwksk3ZMz" resolve="cosmo.dimensions" />
       </node>
-      <node concept="m$_yC" id="44Dwksk3ZME" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
       <node concept="m$_yC" id="44Dwksk43$U" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>

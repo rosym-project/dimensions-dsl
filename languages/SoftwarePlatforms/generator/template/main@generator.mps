@@ -2,7 +2,6 @@
 <model ref="r:03683409-fb1f-4e0f-8e96-611094df14bb(SoftwarePlatforms.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="8fb3e629-b68f-443e-b616-d61142df624b" name="SoftwarePlatforms" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />
