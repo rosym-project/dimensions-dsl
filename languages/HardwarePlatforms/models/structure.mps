@@ -68,9 +68,8 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="2jRhxvslcyp" role="1TKVEi">
       <property role="IQ2ns" value="2663674772907673753" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="hardwareplatform" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2jRhxvslcy1" resolve="HardwarePlatformInstance" />
     </node>
     <node concept="M6xJ_" id="2LnlX4fH7bo" role="lGtFl">
@@ -95,15 +94,15 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5l2$Dw5unfR" role="1TKVEi">
       <property role="IQ2ns" value="6143634023311307767" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="hardwarePlatformIndicator" />
       <ref role="20lvS9" node="5l2$Dw5ulzw" resolve="HardwarePlatformIndicator" />
     </node>
     <node concept="1TJgyj" id="5l2$Dw5wWP1" role="1TKVEi">
       <property role="IQ2ns" value="6143634023311985985" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="kinematicChains" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="cewj:3Wmswgx0$rv" resolve="KinematicChain" />
     </node>
     <node concept="1TJgyi" id="5l2$Dw5tkz$" role="1TKVEl">
@@ -118,9 +117,8 @@
     </node>
     <node concept="1TJgyj" id="2jRhxvslc$1" role="1TKVEi">
       <property role="IQ2ns" value="2663674772907673857" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="associatedModel" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="cewj:3Wmswgx0nyU" resolve="RobotModel" />
     </node>
     <node concept="PrWs8" id="2jRhxvslcy3" role="PzmwI">

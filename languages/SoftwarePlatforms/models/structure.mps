@@ -52,7 +52,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -81,9 +81,9 @@
     </node>
     <node concept="1TJgyj" id="36nF4tNjJWS" role="1TKVEi">
       <property role="IQ2ns" value="3573514252218990392" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="demands" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
     </node>
     <node concept="1X3_iC" id="7TsnP7f05Aq" role="lGtFl">
@@ -91,9 +91,9 @@
       <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
       <node concept="1TJgyj" id="6PzJeNwgQ$t" role="8Wnug">
         <property role="IQ2ns" value="7882351498389317917" />
-        <property role="20lmBu" value="aggregation" />
+        <property role="20lmBu" value="fLJjDmT/aggregation" />
         <property role="20kJfa" value="hidden_demandDescriptor" />
-        <property role="20lbJX" value="1" />
+        <property role="20lbJX" value="fLJekj4/_1" />
         <ref role="20lvS9" node="36nF4tNjJWE" resolve="IDemand" />
       </node>
     </node>
@@ -108,7 +108,7 @@
     <property role="3GE5qa" value="demands" />
     <node concept="1TJgyj" id="36nF4tNk1sX" role="1TKVEi">
       <property role="IQ2ns" value="3573514252219062077" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="coveredBy" />
       <ref role="20lvS9" node="36nF4tNk0LA" resolve="ICoverDemand" />
     </node>
