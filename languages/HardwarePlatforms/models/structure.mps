@@ -6,7 +6,7 @@
   </languages>
   <imports>
     <import index="e6u4" ref="r:44322346-a7b1-436b-882b-4bbfa753778e(Capabilities.structure)" />
-    <import index="cewj" ref="r:cd13618c-02ad-4af8-a3e4-3414c58c4613(Kinematics.structure)" />
+    <import index="cewj" ref="r:cd13618c-02ad-4af8-a3e4-3414c58c4613(KinematicChains.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -137,6 +137,14 @@
     <property role="TrG5h" value="HardwarePlatformIndicator" />
     <property role="34LRSv" value="Base Hardware Platform Indicator" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1Tq8ywqf8sA">
+    <property role="EcuMT" value="2187098124676007718" />
+    <property role="TrG5h" value="Test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Tq8ywqf8sB" role="PzmwI">
+      <ref role="PrY4T" to="e6u4:2LnlX4fH7xw" resolve="ICanBePlatformAnnotated" />
+    </node>
   </node>
 </model>
 
