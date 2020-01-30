@@ -13,7 +13,6 @@
   <accessoryModels />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">4cc07462-84b3-4d01-8adb-629ddd3cebd4(Capabilities)</dependency>
     <dependency reexport="false">d6881f78-a85d-4c9e-931e-30879e67afdd(KinematicChains)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
@@ -75,6 +74,8 @@
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>4cc07462-84b3-4d01-8adb-629ddd3cebd4(Capabilities)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
