@@ -124,6 +124,9 @@
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
+      <concept id="1265949165890536423" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleJars" flags="ng" index="L2wRC">
+        <reference id="1265949165890536425" name="module" index="L2wRA" />
+      </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <child id="5253498789149547825" name="sources" index="3bR31x" />
@@ -157,7 +160,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="44Dwksk3ZMb">
-    <property role="TrG5h" value="cosmo.dimensions" />
+    <property role="TrG5h" value="dimensions" />
     <property role="2DA0ip" value="../../" />
     <property role="turDy" value="build-plugin-mps.xml" />
     <node concept="10PD9b" id="44Dwksk3ZMc" role="10PD9s" />
@@ -211,17 +214,20 @@
       <node concept="3981dG" id="44Dwksk3ZMI" role="39821P">
         <node concept="3_J27D" id="44Dwksk3ZMJ" role="Nbhlr">
           <node concept="3Mxwew" id="44Dwksk3ZMK" role="3MwsjC">
-            <property role="3MwjfP" value="cosmo.dimensions.zip" />
+            <property role="3MwjfP" value="dimensions.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="44Dwksk3ZML" role="39821P">
-          <ref role="m_rDy" node="44Dwksk3ZM$" resolve="cosmo.dimensions" />
+          <ref role="m_rDy" node="44Dwksk3ZM$" resolve="dimensions" />
           <node concept="pUk6x" id="ZvFJB18r57" role="pUk7w" />
         </node>
       </node>
+      <node concept="L2wRC" id="6elPPFNDByN" role="39821P">
+        <ref role="L2wRA" node="44Dwksk4008" resolve="cosmo.dimensions.build" />
+      </node>
     </node>
     <node concept="m$_wf" id="44Dwksk3ZM$" role="3989C9">
-      <property role="m$_wk" value="cosmo.dimensions" />
+      <property role="m$_wk" value="dimensions" />
       <node concept="2pNNFK" id="3ddCaS_xAzO" role="20twgj">
         <property role="2pNNFO" value="vendor" />
         <node concept="2pNUuL" id="4J0OvZJgW_Q" role="2pNNFR">
@@ -257,7 +263,7 @@
       </node>
       <node concept="3_J27D" id="44Dwksk3ZM_" role="m$_yQ">
         <node concept="3Mxwew" id="44Dwksk3ZMA" role="3MwsjC">
-          <property role="3MwjfP" value="cosmo.dimensions" />
+          <property role="3MwjfP" value="dimensions" />
         </node>
       </node>
       <node concept="3_J27D" id="44Dwksk3ZMB" role="m$_w8">
@@ -266,7 +272,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="44Dwksk3ZXa" role="m$_yh">
-        <ref role="m$f5T" node="44Dwksk3ZMz" resolve="cosmo.dimensions" />
+        <ref role="m$f5T" node="44Dwksk3ZMz" resolve="dimensions" />
       </node>
       <node concept="m$_yC" id="44Dwksk43$U" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
@@ -290,7 +296,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="44Dwksk3ZMz" role="3989C9">
-      <property role="TrG5h" value="cosmo.dimensions" />
+      <property role="TrG5h" value="dimensions" />
       <node concept="1E1JtD" id="44Dwksk3ZMm" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="HardwarePlatforms" />
