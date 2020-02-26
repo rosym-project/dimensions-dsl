@@ -8,7 +8,7 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="5dv1" ref="r:194a337e-1208-4e47-b397-de3f7aa7ad6b(Kinematics.build)" />
+    <import index="5dv1" ref="r:194a337e-1208-4e47-b397-de3f7aa7ad6b(KinematicChains.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -212,6 +212,9 @@
     </node>
     <node concept="1l3spV" id="44Dwksk3ZMH" role="1l3spN">
       <node concept="3981dG" id="44Dwksk3ZMI" role="39821P">
+        <node concept="L2wRC" id="6elPPFNHpbG" role="39821P">
+          <ref role="L2wRA" node="6elPPFNHp85" resolve="cosmo.dimensions.build" />
+        </node>
         <node concept="3_J27D" id="44Dwksk3ZMJ" role="Nbhlr">
           <node concept="3Mxwew" id="44Dwksk3ZMK" role="3MwsjC">
             <property role="3MwjfP" value="dimensions.zip" />
@@ -221,9 +224,6 @@
           <ref role="m_rDy" node="44Dwksk3ZM$" resolve="dimensions" />
           <node concept="pUk6x" id="ZvFJB18r57" role="pUk7w" />
         </node>
-      </node>
-      <node concept="L2wRC" id="6elPPFNDByN" role="39821P">
-        <ref role="L2wRA" node="44Dwksk4008" resolve="cosmo.dimensions.build" />
       </node>
     </node>
     <node concept="m$_wf" id="44Dwksk3ZM$" role="3989C9">
@@ -488,65 +488,50 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="44Dwksk4008" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="cosmo.dimensions.build" />
-        <property role="3LESm3" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
-        <node concept="55IIr" id="44Dwksk400b" role="3LF7KH">
-          <node concept="2Ry0Ak" id="44Dwksk404O" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="44Dwksk406B" role="2Ry0An">
-              <property role="2Ry0Am" value="cosmo.dimensions.build" />
-              <node concept="2Ry0Ak" id="44Dwksk407$" role="2Ry0An">
-                <property role="2Ry0Am" value="cosmo.dimensions.build.msd" />
-              </node>
+    </node>
+    <node concept="1E1JtA" id="6elPPFNHp85" role="3989C9">
+      <property role="BnDLt" value="true" />
+      <property role="TrG5h" value="cosmo.dimensions.build" />
+      <property role="3LESm3" value="5276df98-ad74-4c83-b95e-80c2a30f443d" />
+      <node concept="55IIr" id="6elPPFNHp87" role="3LF7KH">
+        <node concept="2Ry0Ak" id="6elPPFNHpba" role="iGT6I">
+          <property role="2Ry0Am" value="solutions" />
+          <node concept="2Ry0Ak" id="6elPPFNHpbh" role="2Ry0An">
+            <property role="2Ry0Am" value="cosmo.dimensions.build" />
+            <node concept="2Ry0Ak" id="6elPPFNHpbo" role="2Ry0An">
+              <property role="2Ry0Am" value="cosmo.dimensions.build.msd" />
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="44Dwksk4082" role="3bR37C">
-          <node concept="3bR9La" id="44Dwksk4083" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-          </node>
+      </node>
+      <node concept="1SiIV0" id="6elPPFNHpc0" role="3bR37C">
+        <node concept="3bR9La" id="6elPPFNHpc1" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
         </node>
-        <node concept="3rtmxn" id="ZvFJB18r4j" role="3bR31x">
-          <node concept="3LXTmp" id="ZvFJB18r4k" role="3rtmxm">
-            <node concept="3qWCbU" id="ZvFJB18r4l" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="55IIr" id="ZvFJB18r4m" role="3LXTmr">
-              <node concept="2Ry0Ak" id="ZvFJB18r4n" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="ZvFJB18r4o" role="2Ry0An">
-                  <property role="2Ry0Am" value="cosmo.dimensions.build" />
+      </node>
+      <node concept="1SiIV0" id="6elPPFNHpc2" role="3bR37C">
+        <node concept="3bR9La" id="6elPPFNHpc3" role="1SiIV1">
+          <ref role="3bR37D" to="5dv1:6elPPFNHgmj" resolve="KinematicChains.build" />
+        </node>
+      </node>
+      <node concept="1BupzO" id="6elPPFNHpc8" role="3bR31x">
+        <property role="3ZfqAx" value="models" />
+        <property role="1Hdu6h" value="true" />
+        <property role="1HemKv" value="true" />
+        <node concept="3LXTmp" id="6elPPFNHpc9" role="1HemKq">
+          <node concept="55IIr" id="6elPPFNHpc4" role="3LXTmr">
+            <node concept="2Ry0Ak" id="6elPPFNHpc5" role="iGT6I">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="6elPPFNHpc6" role="2Ry0An">
+                <property role="2Ry0Am" value="cosmo.dimensions.build" />
+                <node concept="2Ry0Ak" id="6elPPFNHpc7" role="2Ry0An">
+                  <property role="2Ry0Am" value="models" />
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1SiIV0" id="3U2bBlOR44" role="3bR37C">
-          <node concept="3bR9La" id="3U2bBlOR45" role="1SiIV1">
-            <ref role="3bR37D" to="5dv1:3U2bBlMYz7" resolve="KinematicChains.build" />
-          </node>
-        </node>
-        <node concept="1BupzO" id="3U2bBlOR4a" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3U2bBlOR4b" role="1HemKq">
-            <node concept="55IIr" id="3U2bBlOR46" role="3LXTmr">
-              <node concept="2Ry0Ak" id="3U2bBlOR47" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3U2bBlOR48" role="2Ry0An">
-                  <property role="2Ry0Am" value="cosmo.dimensions.build" />
-                  <node concept="2Ry0Ak" id="3U2bBlOR49" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3U2bBlOR4c" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
+          <node concept="3qWCbU" id="6elPPFNHpca" role="3LXTna">
+            <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
           </node>
         </node>
       </node>
