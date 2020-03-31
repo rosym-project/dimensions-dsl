@@ -274,9 +274,6 @@
       <node concept="m$f5U" id="44Dwksk3ZXa" role="m$_yh">
         <ref role="m$f5T" node="44Dwksk3ZMz" resolve="dimensions" />
       </node>
-      <node concept="m$_yC" id="44Dwksk43$U" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
-      </node>
       <node concept="m$_yC" id="44Dwksk43A$" role="m$_yJ">
         <ref role="m$_y1" to="5dv1:2RDM3_ZXwR3" resolve="KinematicChains" />
       </node>
