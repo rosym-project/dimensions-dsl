@@ -281,8 +281,13 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="ret" />
             <node concept="17QB3L" id="2LnlX4fHeYx" role="1tU5fm" />
-            <node concept="Xl_RD" id="2LnlX4fHbGY" role="33vP2m">
-              <property role="Xl_RC" value="" />
+            <node concept="3cpWs3" id="48IOVVmRUMc" role="33vP2m">
+              <node concept="Xl_RD" id="2LnlX4fHbHh" role="3uHU7w">
+                <property role="Xl_RC" value=" (Software Platform)" />
+              </node>
+              <node concept="37vLTw" id="48IOVVmRV8k" role="3uHU7B">
+                <ref role="3cqZAo" node="2LnlX4fHbGP" resolve="softwarePlatformString" />
+              </node>
             </node>
           </node>
         </node>
@@ -294,16 +299,11 @@
                   <ref role="3cqZAo" node="2LnlX4fHbGV" resolve="ret" />
                 </node>
                 <node concept="3cpWs3" id="2LnlX4fHbHd" role="37vLTx">
-                  <node concept="3cpWs3" id="2LnlX4fHbHe" role="3uHU7B">
-                    <node concept="Xl_RD" id="2LnlX4fHbHf" role="3uHU7B">
-                      <property role="Xl_RC" value="Remove " />
-                    </node>
-                    <node concept="37vLTw" id="2LnlX4fHbHg" role="3uHU7w">
-                      <ref role="3cqZAo" node="2LnlX4fHbGP" resolve="softwarePlatformString" />
-                    </node>
+                  <node concept="Xl_RD" id="2LnlX4fHbHf" role="3uHU7B">
+                    <property role="Xl_RC" value="Remove " />
                   </node>
-                  <node concept="Xl_RD" id="2LnlX4fHbHh" role="3uHU7w">
-                    <property role="Xl_RC" value=" (Software Platform)" />
+                  <node concept="37vLTw" id="48IOVVmRVnL" role="3uHU7w">
+                    <ref role="3cqZAo" node="2LnlX4fHbGV" resolve="ret" />
                   </node>
                 </node>
               </node>
@@ -356,17 +356,12 @@
                   <node concept="37vLTw" id="2LnlX4fHbHo" role="37vLTJ">
                     <ref role="3cqZAo" node="2LnlX4fHbGV" resolve="ret" />
                   </node>
-                  <node concept="3cpWs3" id="2LnlX4fHbHp" role="37vLTx">
-                    <node concept="3cpWs3" id="2LnlX4fHbHq" role="3uHU7B">
-                      <node concept="Xl_RD" id="2LnlX4fHbHr" role="3uHU7B">
-                        <property role="Xl_RC" value="Use " />
-                      </node>
-                      <node concept="37vLTw" id="2LnlX4fHbHs" role="3uHU7w">
-                        <ref role="3cqZAo" node="2LnlX4fHbGP" resolve="softwarePlatformString" />
-                      </node>
+                  <node concept="3cpWs3" id="2LnlX4fHbHq" role="37vLTx">
+                    <node concept="Xl_RD" id="2LnlX4fHbHr" role="3uHU7B">
+                      <property role="Xl_RC" value="Use " />
                     </node>
-                    <node concept="Xl_RD" id="2LnlX4fHbHt" role="3uHU7w">
-                      <property role="Xl_RC" value=" (Software Platform)" />
+                    <node concept="37vLTw" id="48IOVVmRVCW" role="3uHU7w">
+                      <ref role="3cqZAo" node="2LnlX4fHbGV" resolve="ret" />
                     </node>
                   </node>
                 </node>
@@ -593,7 +588,7 @@
           </node>
         </node>
         <node concept="TUZQ0" id="2LnlX4fHHLT" role="3nqlJM">
-          <property role="TUZQ4" value="pecific description from the specialized software platform." />
+          <property role="TUZQ4" value="specific description from the specialized software platform." />
           <node concept="zr_55" id="2LnlX4fHHSm" role="zr_5Q">
             <ref role="zr_51" node="2LnlX4fHbHA" resolve="softwarePlatformString" />
           </node>
@@ -893,7 +888,7 @@
           </node>
         </node>
         <node concept="TUZQ0" id="36nF4tNotEn" role="3nqlJM">
-          <property role="TUZQ4" value="pecific description from the specialized software platform." />
+          <property role="TUZQ4" value="specific description from the specialized software platform." />
           <node concept="zr_55" id="36nF4tNotEo" role="zr_5Q">
             <ref role="zr_51" node="36nF4tNotDs" resolve="softwarePlatformString" />
           </node>
@@ -1178,7 +1173,7 @@
           </node>
         </node>
         <node concept="TUZQ0" id="6PzJeNwfKMk" role="3nqlJM">
-          <property role="TUZQ4" value="indicated which IDemand belongs to the specific soft. plat." />
+          <property role="TUZQ4" value="indicated which IDemand belongs to the specific software platform." />
           <node concept="zr_55" id="6PzJeNwfKMl" role="zr_5Q">
             <ref role="zr_51" node="6PzJeNwfKKA" resolve="spSpecificDemandConceptIdentifier" />
           </node>
