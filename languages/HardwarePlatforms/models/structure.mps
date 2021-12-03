@@ -119,7 +119,7 @@
       <property role="IQ2ns" value="2663674772907673857" />
       <property role="20kJfa" value="associatedModel" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="cewj:3Wmswgx0nyU" resolve="RobotModel" />
+      <ref role="20lvS9" to="cewj:3Wmswgx0nyU" resolve="Robot" />
     </node>
     <node concept="PrWs8" id="2jRhxvslcy3" role="PzmwI">
       <ref role="PrY4T" node="2jRhxvslcy2" resolve="IHardwarePlatform" />

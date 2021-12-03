@@ -261,7 +261,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5l2$Dw5wtic" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="2OqwBi" id="5l2$Dw5wvyE" role="37wK5m">
                   <node concept="1PxgMI" id="5l2$Dw5wuyL" role="2Oq$k0">
                     <node concept="38Zlrr" id="5l2$Dw5wtL0" role="1m5AlR" />
@@ -377,7 +377,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="5l2$Dw5v9RZ" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="2OqwBi" id="5l2$Dw5vcVp" role="37wK5m">
                                 <node concept="1PxgMI" id="5l2$Dw5vbp7" role="2Oq$k0">
                                   <node concept="38Zlrr" id="5l2$Dw5vav1" role="1m5AlR" />
@@ -531,7 +531,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5l2$Dw5wwSe" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="2OqwBi" id="5l2$Dw5wwSf" role="37wK5m">
                   <node concept="1PxgMI" id="5l2$Dw5wwSg" role="2Oq$k0">
                     <node concept="38Zlrr" id="5l2$Dw5wwSh" role="1m5AlR" />
@@ -628,7 +628,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="5l2$Dw5vR_$" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="2OqwBi" id="5l2$Dw5vR__" role="37wK5m">
                                 <node concept="1PxgMI" id="5l2$Dw5vR_A" role="2Oq$k0">
                                   <node concept="38Zlrr" id="5l2$Dw5vR_B" role="1m5AlR" />
