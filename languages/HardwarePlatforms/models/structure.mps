@@ -124,6 +124,9 @@
     <node concept="PrWs8" id="2jRhxvslcy3" role="PzmwI">
       <ref role="PrY4T" node="2jRhxvslcy2" resolve="IHardwarePlatform" />
     </node>
+    <node concept="PrWs8" id="6NfuGIqYUxy" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2jRhxvslcy2">
     <property role="EcuMT" value="2663674772907673730" />
